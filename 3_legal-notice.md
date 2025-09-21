@@ -2,7 +2,7 @@
 
 ## 事業者名
 
-AppNestx8
+StudyPlayer
 
 ## 事業者住所
 

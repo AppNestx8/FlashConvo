@@ -4,7 +4,7 @@
 
 hummingbirdx8@gmail.com
 
----
+
 
 ## お問い合わせ内容の例
 
@@ -12,7 +12,6 @@ hummingbirdx8@gmail.com
 - 購入に関するご相談  
 - その他のご意見・ご要望
 
----
 
 ## ご注意事項
 
