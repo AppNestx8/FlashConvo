@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.8;
+  color: #24494C;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #24494C;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-content {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-content p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.badge-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.badge-link {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.badge-link:hover {
+  transform: translateY(-5px);
+  opacity: 0.7;
+}
+
+.badge-link img,
+.badge-link svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.badge-link-apple {
+  width: 230px;
+  height: 69px;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 15px;
+  }
+
+  .container {
+    padding: 40px 25px;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .text-content {
+    font-size: 1rem;
+  }
+
+  .badge-section {
+    gap: 15px;
+  }
+
+  .badge-link {
+    width: 180px;
+    height: 54px;
+  }
+
+  .badge-link-apple {
+    width: 210px;
+    height: 63px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 30px 20px;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+  }
+
+  .text-content {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .badge-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .badge-link {
+    width: 160px;
+    height: 48px;
+  }
+
+  .badge-link-apple {
+    width: 185px;
+    height: 56px;
+  }
+}
+
