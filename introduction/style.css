@@ -80,6 +80,10 @@ body {
   opacity: 0.7;
 }
 
+.badge-link-apple:hover {
+  transform: translateY(-5px);
+}
+
 .badge-link img,
 .badge-link svg {
   width: 100%;
@@ -89,8 +93,14 @@ body {
 }
 
 .badge-link-apple {
-  width: 230px;
-  height: 69px;
+  width: 200px;
+  height: 60px;
+}
+
+.badge-link-apple img,
+.badge-link-apple svg {
+  transform: scaleX(1.2) scaleY(1.05);
+  transform-origin: center;
 }
 
 /* レスポンシブデザイン */
@@ -122,8 +132,17 @@ body {
   }
 
   .badge-link-apple {
-    width: 210px;
-    height: 63px;
+    width: 180px;
+    height: 54px;
+  }
+
+  .badge-link-apple img,
+  .badge-link-apple svg {
+    transform: scaleX(1.2) scaleY(1.05);
+  }
+
+  .badge-link-apple:hover {
+    transform: translateY(-5px);
   }
 }
 
@@ -153,8 +172,17 @@ body {
   }
 
   .badge-link-apple {
-    width: 185px;
-    height: 56px;
+    width: 160px;
+    height: 48px;
+  }
+
+  .badge-link-apple img,
+  .badge-link-apple svg {
+    transform: scaleX(1.1) scaleY(1.05);
+  }
+
+  .badge-link-apple:hover {
+    transform: translateY(-5px);
   }
 }
 
